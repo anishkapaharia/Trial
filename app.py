@@ -4,6 +4,8 @@ from flask import request
 import recommendation_engine as rec
 import os
 import sys
+from configurations.wsgi import get_wsgi_application  # noqa
+
 script_dir = "/Desktop/instacartmba"
 
 # Add the absolute directory  path containing your
